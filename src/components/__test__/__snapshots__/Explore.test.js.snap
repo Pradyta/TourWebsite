@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Explore Component should render Explore compoennt 1`] = `
+<DocumentFragment>
+  <div
+    class="relative my-7 md:mt-3"
+    id="explore-1"
+  >
+    <div
+      class="travigo-container"
+    >
+      <div
+        class="flex items-center justify-center text-center mb-11 md:mb-7"
+      >
+        <h1
+          class="text-5xl lg:text-4xl md:text-3xl sm:text-2xl xsm:text-xl font-bold filter drop-shadow-lg text-slate-900"
+        />
+      </div>
+      <div
+        class="grid items-center grid-cols-4 lg:grid-cols-3 md:grid-cols-2 gap-5"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

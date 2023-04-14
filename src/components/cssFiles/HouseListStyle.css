@@ -1,0 +1,31 @@
+.content h1, .content h2{
+    color: rgb(37 99 235)
+}
+
+.content input:focus{
+    outline: none;
+    --tw-ring-color: none;
+}
+.content .grid{
+    cursor: pointer;
+}
+
+.content .input-group{
+    margin-top: 15px;
+}
+
+.house-image img{
+    height: 200px;
+    border-radius: 2px;
+    object-fit: cover;
+    width: 100%;
+}
+.house-list a:hover{
+    color:rgb(124 58 237);
+}
+.house-list .item:hover{
+  box-shadow: 5px 3px 80px #0000001a;
+}
+.house-list .item{
+    border:1px solid #ebe8e873;
+}

@@ -1,0 +1,52 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow:0 5px 15px 0  rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 80px;
+}
+#logo
+{
+    padding: 0 30px;
+    font-weight: 900;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+#navbar
+{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+#navbar li
+{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;    
+}
+#navbar li a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+#navbar li a i{
+    padding-right: 10px;
+}
+#navbar li:hover{
+    color: #fff;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+button{
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+    border-radius: 0.3rem;
+}
+
+#navbar li a:hover, button:hover{
+    color: #8b5cf6;
+}

@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar Component should render Navbar compoennt 1`] = `
+<DocumentFragment>
+  <nav>
+    <h1
+      id="logo"
+    >
+      Trip Advisor
+    </h1>
+    <div>
+      <ul
+        id="navbar"
+      >
+        <li>
+          <i
+            aria-hidden="true"
+            class="fa fa-home"
+          />
+          <a
+            href="/"
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <i
+            class="fa-solid fa-info"
+          />
+          <a
+            href="/about"
+          >
+            About
+          </a>
+        </li>
+        <li>
+           
+          <i
+            class="fa-solid fa-address-book"
+          />
+          <a
+            href="/contact"
+          >
+            Contact Us
+          </a>
+        </li>
+        <button>
+          <a
+            href="/login"
+          >
+            Login
+          </a>
+        </button>
+        <button>
+          <a
+            href="/signUp"
+          >
+            Sign Up
+          </a>
+        </button>
+      </ul>
+    </div>
+  </nav>
+  ,
+</DocumentFragment>
+`;
